@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+   background: linear-gradient(#cceaff 0, #d3e8ff 6.25%, #d9e6ff 12.5%, #dfe5ff 18.75%, #e6e3ff 25%, #ece1ff 31.25%, #f2e0ff 37.5%, #f8deff 43.75%, #fdddfe 50%, #ffdcfa 56.25%, #ffdbf5 62.5%, #ffdaf0 68.75%, #ffdaeb 75%, #ffd9e6 81.25%, #ffd9e1 87.5%, #ffd9dc 93.75%, #ffdad8 100%);
+   width: 100%;
+}
+
+.cabeça{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.patinha{
+    color: rgb(26, 0, 87);
+    background-color: rgb(188, 225, 231);
+    margin: 20px;
+    border-bottom: 50px;
+    
+}
+
+button{
+    color: rgb(35, 67, 68);
+    background-color: rgb(188, 225, 231);
+    border-radius: 25px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 18px;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.anika{
+    display: flex;
+    justify-content: right;
+    margin-left: 90px;
+    margin-right: 200px;
+    margin-top: 120px;
+    margin-bottom: 90px;
+    padding: 10px;
+    border: solid;
+    border-radius: 300px;
+    border-color:rgb(26, 0, 87);
+    align-items: center;
+}
+
+.pic{
+    max-width: 500px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+
+.textoAnika{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 26px;
+    margin-left: 50px;
+    color:rgb(26, 0, 87);
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.zoiudo{
+    display: flex;
+    justify-content: right;
+    border: solid;
+    border-radius: 300px;
+    border-color:rgb(26, 0, 87);
+    margin-left: 200px;
+    margin-right: 90px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.textozoiudo{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 26px;
+    margin-right: 30px;
+    margin-left: 50px;
+    color:rgb(26, 0, 87);
+    font-weight: 400;
+    text-align: right;
+}
+
+.picz{
+    max-width: 450px;
+}
+
+hr{
+	border-top-width: 3px;
+    height: 1px;
+    border-color: rgb(70, 31, 160);
+}
+/*responsividade*/
+
+@media (max-width: 700px){
+    .cabeça{
+        flex-direction: column ;
+    }
+    .patinha{
+        display: none;
+    }
+    .textoAnika , .textozoiudo{
+        align-items: center;
+    }
+}
